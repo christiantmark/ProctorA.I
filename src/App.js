@@ -9,8 +9,11 @@ import "./App.css";
 // 2. TODO - Import drawing utility here
 // e.g. import { drawRect } from "./utilities";
 import { drawRect } from "./utilities";
+import './App.css'
 
 function App() {
+
+
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
 
