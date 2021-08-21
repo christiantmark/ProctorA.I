@@ -5,7 +5,9 @@
   }
   
   #display {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: 150px;
+    margin-bottom: 350px;
   }
   #display span {
     font-size: 36px;
