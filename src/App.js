@@ -10,6 +10,7 @@ import "./App.css";
 // e.g. import { drawRect } from "./utilities";
 import { drawRect } from "./utilities";
 import './App.css'
+import Timer from "./components/timer.js";
 
 function App() {
 
@@ -68,6 +69,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Timer />
         <Webcam
           ref={webcamRef}
           muted={true} 

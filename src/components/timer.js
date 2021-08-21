@@ -1,7 +1,7 @@
 import React from "react";
-import './components/timer.css'
+import '../components/timer.css'
 
-const App = () => {
+const Timer = () => {
   const [time, setTime] = React.useState(0);
   const [timerOn, setTimerOn] = React.useState(false);
 
@@ -44,5 +44,4 @@ const App = () => {
   );
 };
 
-export default App;
-export {App as timer};
+export default Timer;
