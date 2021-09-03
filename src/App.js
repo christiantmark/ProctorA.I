@@ -2,7 +2,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import * as tf from "@tensorflow/tfjs";
 // 1. TODO - Import required model here
-// e.g. import * as tfmodel from "@tensorflow-models/tfmodel";
+// e.g. import * as tfmodel from "@tensorflow-models/mmodel";
 import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
 import "./App.css";
@@ -75,7 +75,9 @@ function App() {
           muted={true} 
           style={{
             position: "absolute",
-            marginLeft: "auto",
+            //marginLeft: "auto",
+            //marginRight: "auto",
+            marginLeft: "100px",
             marginRight: "auto",
             left: 0,
             right: 0,
@@ -90,7 +92,7 @@ function App() {
           ref={canvasRef}
           style={{
             position: "absolute",
-            marginLeft: "auto",
+            marginLeft: "100px",
             marginRight: "auto",
             left: 0,
             right: 0,
